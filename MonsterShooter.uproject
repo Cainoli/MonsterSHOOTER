@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{908F3494-43D5-6ED9-75EE-EA8524078A5B}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "MonsterShooter",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}
