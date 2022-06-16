@@ -31,6 +31,19 @@ void AMSPlayerController::SetupInputComponent()
 	InputComponent->BindAction("Fire", IE_Pressed, this, &ThisClass::Fire);
 	InputComponent->BindAction("MoveToCursor", IE_Pressed, this, &ThisClass::MoveToCursorPressed);
 	InputComponent->BindAction("MoveToCursor", IE_Released, this, &ThisClass::MoveToCursorReleased);
+
+	InputComponent->BindAction("Flashlight", IE_Pressed, this, &ThisClass::Flashlight);
+	InputComponent->BindAction("InfoPanel", IE_Pressed, this, &ThisClass::InfoPanel);
+	InputComponent->BindAction("QuickSlot1", IE_Pressed, this, &ThisClass::QuickSlot1);
+	InputComponent->BindAction("QuickSlot2", IE_Pressed, this, &ThisClass::QuickSlot2);
+	InputComponent->BindAction("QuickSlot3", IE_Pressed, this, &ThisClass::QuickSlot3);
+	InputComponent->BindAction("QuickSlot4", IE_Pressed, this, &ThisClass::QuickSlot4);
+	InputComponent->BindAction("QuickSlot5", IE_Pressed, this, &ThisClass::QuickSlot5);
+	InputComponent->BindAction("QuickSlot6", IE_Pressed, this, &ThisClass::QuickSlot6);
+	InputComponent->BindAction("QuickSlot7", IE_Pressed, this, &ThisClass::QuickSlot7);
+	InputComponent->BindAction("QuickSlot8", IE_Pressed, this, &ThisClass::QuickSlot8);
+	InputComponent->BindAction("QuickSlot9", IE_Pressed, this, &ThisClass::QuickSlot9);
+	InputComponent->BindAction("Menu", IE_Pressed, this, &ThisClass::Menu);
 }
 
 void AMSPlayerController::SetPawn(APawn* InPawn)
@@ -158,4 +171,56 @@ void AMSPlayerController::MoveToCursorReleased()
 	// clear flag to indicate we should stop updating the destination
 	bMoveToCursor = false;
 	UKismetSystemLibrary::PrintString(this, FString(TEXT("MoveToCursorReleased")), true, true, FLinearColor::Green, DeltaTimeRef);
+}
+
+void AMSPlayerController::Flashlight()
+{
+	UKismetSystemLibrary::PrintString(this, FString(TEXT("Flashlight")), true, true, FLinearColor::Green, DeltaTimeRef);
+}
+
+void AMSPlayerController::InfoPanel()
+{
+	UKismetSystemLibrary::PrintString(this, FString(TEXT("InfoPanel")), true, true, FLinearColor::Green, DeltaTimeRef);
+}
+
+void AMSPlayerController::QuickSlot1()
+{
+	UKismetSystemLibrary::PrintString(this, FString(TEXT("QuickSlot1")), true, true, FLinearColor::Green, DeltaTimeRef);
+}
+void AMSPlayerController::QuickSlot2()
+{
+	UKismetSystemLibrary::PrintString(this, FString(TEXT("QuickSlot2")), true, true, FLinearColor::Green, DeltaTimeRef);
+}
+void AMSPlayerController::QuickSlot3()
+{
+	UKismetSystemLibrary::PrintString(this, FString(TEXT("QuickSlot3")), true, true, FLinearColor::Green, DeltaTimeRef);
+}
+void AMSPlayerController::QuickSlot4()
+{
+	UKismetSystemLibrary::PrintString(this, FString(TEXT("QuickSlot4")), true, true, FLinearColor::Green, DeltaTimeRef);
+}
+void AMSPlayerController::QuickSlot5()
+{
+	UKismetSystemLibrary::PrintString(this, FString(TEXT("QuickSlot5")), true, true, FLinearColor::Green, DeltaTimeRef);
+}
+void AMSPlayerController::QuickSlot6()
+{
+	UKismetSystemLibrary::PrintString(this, FString(TEXT("QuickSlot6")), true, true, FLinearColor::Green, DeltaTimeRef);
+}
+void AMSPlayerController::QuickSlot7()
+{
+	UKismetSystemLibrary::PrintString(this, FString(TEXT("QuickSlot7")), true, true, FLinearColor::Green, DeltaTimeRef);
+}
+void AMSPlayerController::QuickSlot8()
+{
+	UKismetSystemLibrary::PrintString(this, FString(TEXT("QuickSlot8")), true, true, FLinearColor::Green, DeltaTimeRef);
+}
+void AMSPlayerController::QuickSlot9()
+{
+	UKismetSystemLibrary::PrintString(this, FString(TEXT("QuickSlot9")), true, true, FLinearColor::Green, DeltaTimeRef);
+}
+
+void AMSPlayerController::Menu()
+{
+	UKismetSystemLibrary::PrintString(this, FString(TEXT("Menu")), true, true, FLinearColor::Green, DeltaTimeRef);
 }

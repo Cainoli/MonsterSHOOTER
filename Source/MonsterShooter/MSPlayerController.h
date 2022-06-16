@@ -59,6 +59,19 @@ public:
 	void PrevWeapon();
 	void Fire();
 
+	void Flashlight();
+	void InfoPanel();
+	void QuickSlot1();
+	void QuickSlot2();
+	void QuickSlot3();
+	void QuickSlot4();
+	void QuickSlot5();
+	void QuickSlot6();
+	void QuickSlot7();
+	void QuickSlot8();
+	void QuickSlot9();
+	void Menu();
+
 protected:
 
 	// Called when the game starts or when spawned
