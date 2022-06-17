@@ -11,7 +11,7 @@ products, log files and intermediate files generated from a compiler or the engi
 #  Use \ to escape special characters like ! and #
 #  Use ! to negate a previous pattern.  But it doesn't work if the parent sub-folder was masked out already.
 #-------------------------------------------------------------------------------------------------------------------
-# Copyright (C) 2021-2022 AethraVERSE. All Rights Reserved.
+# Copyright (C) 2022 AethraVERSE. All Rights Reserved.
 # Do not copy it for any other use than acquaintance with it. Do not try to make money with it, blah, blah, blah...
 #===================================================================================================================
 

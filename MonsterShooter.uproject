@@ -1,8 +1,8 @@
 {
 	"FileVersion": 3,
 	"EngineAssociation": "{908F3494-43D5-6ED9-75EE-EA8524078A5B}",
-	"Category": "",
-	"Description": "",
+	"Category": "Game Template",
+	"Description": "This is an approximate game project in the genre of arcade action with RPG elements.",
 	"Modules": [
 		{
 			"Name": "MonsterShooter",
